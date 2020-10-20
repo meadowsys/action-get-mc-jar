@@ -1,0 +1,9 @@
+---
+name: Download Minecraft jar
+description: Downloads the latest Minecraft jar file from Mojang. Intended for things like resourcepack testing
+outputs:
+  jarfilename:
+    description: the name of the jar file downloaded
+runs:
+  using: node12
+  main: build/index.js

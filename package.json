@@ -1,0 +1,29 @@
+{
+  "name": "action-get-latest-mc-jar",
+  "version": "0.1.0",
+  "description": "",
+  "main": "build/index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo im lazy lol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PCelestia/action-get-latest-mc-jar.git"
+  },
+  "author": "PCelestia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PCelestia/action-get-latest-mc-jar/issues"
+  },
+  "homepage": "https://github.com/PCelestia/action-get-latest-mc-jar#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.0",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0"
+  }
+}

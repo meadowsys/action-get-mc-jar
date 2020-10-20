@@ -1,0 +1,9 @@
+node_modules
+build
+docs
+.env
+notz
+testfolderlol
+.vscode
+
+GIT-PLEASE-IGNORE-ME-*
