@@ -38,5 +38,5 @@ jobs:
       - name: exposé what i did!
         uses: actions/upload-artifact@v2
         with:
-          name: downloaded jar
+          name: downloaded-jar
           path: ./hhhhhhhhh.jar

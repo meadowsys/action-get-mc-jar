@@ -1,8 +1,8 @@
-# Get latest Minecraft Jar file from Mojang
+# Get Minecraft (Java edition) Jar file from Mojang
 
 ## NOTE
 
-this was made for the purposes of pulling some files from the game to automatically modify, and build a resourcepack from it, NOT to illegally download and play Minecraft.
+this was made for the purposes of pulling some files from the game to automatically modify and build a resourcepack from, **NOT** to illegally download and play Minecraft. You can't play this version of the downloaded game unless you have a Minecraft account, which then it's a lot easier to just get the official launcher and use that.
 
 ## Inputs
 
@@ -30,6 +30,6 @@ the name of the jar file downloaded (provided for when `mcversion` is `latest`, 
 
 the version of minecraft that was downloaded (provided for when `mcversion` was set to latest or snapshot)
 
-## To extract the jar
+## To extract the jar in the action
 
-I don't include that in this action, because essentially it's just a zip file. You can you an unzipping tool to unzip the downloaded jar. I have yet to test it for this, but the [zip action](https://github.com/marketplace/actions/create-zip-file) does its job well.
+I don't include that in this action, because essentially the downloaded jar file is just a zip file. You can you an unzipping action to unzip the downloaded jar. I have yet to test this action for this specific purpose, but I have used [the zip action](https://github.com/marketplace/actions/create-zip-file), and I recommend it!
