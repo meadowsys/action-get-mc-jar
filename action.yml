@@ -9,7 +9,7 @@ inputs:
     required: false
     default: latest
   filename:
-    description: The name of the file to save to, default "minecraft-<version>.jar" (if no extension is provided, it will be set as .jar) (and it is all lowercased)
+    description: The name of the file to save to, default "minecraft-<version>.jar" (if no extension is provided, it will be set as .jar)
     required: false
     default: defaultnamelol
 outputs:

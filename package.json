@@ -1,6 +1,6 @@
 {
    "name": "action-get-latest-mc-jar",
-   "version": "0.1.0",
+   "version": "1.0.0",
    "description": "Gets the jar of the latest/snapshot/specified version of Minecraft",
    "main": "build/index.js",
    "private": true,
@@ -8,7 +8,7 @@
       "build": "tsc",
       "lint": "eslint --ext .ts src/",
       "test": "echo hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh",
-      "package": "ncc build src/index.ts --out build --minify"
+      "package": "ncc build src/index.ts --out build --minify --license LICENSE"
    },
    "repository": {
       "type": "git",
