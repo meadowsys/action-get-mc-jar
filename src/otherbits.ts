@@ -34,9 +34,10 @@ export const manifesturl: string = "https://launchermeta.mojang.com/mc/game/vers
 /** downloads offered for any given version */
 @JsonObject("versiondownload") export class VersionDownloads {
    @JsonProperty("client", VersionDownloadsProperty) public client: VersionDownloadsProperty = new VersionDownloadsProperty();
-   @JsonProperty("client_mappings", VersionDownloadsProperty) public clientmappings: VersionDownloadsProperty = new VersionDownloadsProperty();
-   @JsonProperty("server", VersionDownloadsProperty) public server: VersionDownloadsProperty = new VersionDownloadsProperty();
-   @JsonProperty("server_mappings", VersionDownloadsProperty) public servermappings: VersionDownloadsProperty = new VersionDownloadsProperty();
+   @JsonProperty("client_mappings", VersionDownloadsProperty, true) public clientmappings: VersionDownloadsProperty = new VersionDownloadsProperty();
+   @JsonProperty("server", VersionDownloadsProperty, true) public server: VersionDownloadsProperty = new VersionDownloadsProperty();
+   @JsonProperty("server_mappings", VersionDownloadsProperty, true) public servermappings: VersionDownloadsProperty = new VersionDownloadsProperty();
+   @JsonProperty("windows_server", VersionDownloadsProperty, true) public windowsserver: VersionDownloadsProperty = new VersionDownloadsProperty();
 }
 
 /** a (incomplete) manifest object showing all the downloads/info/stuff about a particular minecraft version */

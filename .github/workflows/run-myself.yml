@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         # select some random versions i guess lol
-        mcversion: ["latest", "snapshot", "1.15.1", "15w14a"]
+        mcversion: ["latest", "snapshot", "1.15.1", "15w14a", "rd-132211"]
 
     steps:
       - name: checkout my code
