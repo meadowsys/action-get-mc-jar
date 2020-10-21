@@ -72,7 +72,7 @@ async function run(): Promise<void> {
    }
 
    setOutput("jarfilename", filename);
-   setOutput("minecraftversion", inputmcversion);
+   setOutput("mcversion", inputmcversion);
 }
 
 void run();

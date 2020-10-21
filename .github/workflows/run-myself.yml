@@ -1,0 +1,29 @@
+---
+on:
+- push
+- pull_request
+name: run myself
+
+jobs:
+  go:
+    name: go
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: checkout my code
+        uses: actions/checkout@v2
+
+      - name: package myself
+        run: npm run package
+
+      - name: go!!!
+        uses: ./
+        with:
+          mcversion: 1.16.3
+          filename: hhhhhhhhh.jar
+
+      - name: exposé what i did!
+        uses: actions/upload-artifact@v2
+        with:
+          name: downloaded jar
+          path: ./hhhhhhhhh.jar
