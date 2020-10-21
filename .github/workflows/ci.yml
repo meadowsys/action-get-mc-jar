@@ -8,9 +8,7 @@ jobs:
   build:
     name: build
     runs-on: ubuntu-20.04
-    strategy:
-      matrix:
-        node-version: ["10", "12", "14"]
+
     steps:
       - name: checkout code
         uses: actions/checkout@v2
@@ -18,7 +16,7 @@ jobs:
       - name: setup node
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: "12"
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v1.2.1
@@ -42,7 +40,7 @@ jobs:
       - name: setup node
         uses: actions/setup-node@v1
         with:
-          node-version: "14"
+          node-version: "12"
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v1.2.1
@@ -59,9 +57,6 @@ jobs:
   test:
     name: test
     runs-on: ubuntu-20.04
-    strategy:
-      matrix:
-        node-version: ["10", "12", "14"]
     steps:
       - name: checkout code
         uses: actions/checkout@v2
@@ -69,7 +64,7 @@ jobs:
       - name: setup node
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: "12"
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v1.2.1
