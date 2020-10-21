@@ -1,6 +1,13 @@
 ---
 name: Download Minecraft jar
-description: Downloads the latest Minecraft jar file from Mojang. Intended for things like resourcepack testing
+description: Downloads the latest Minecraft jar file from Mojang. Intended for use in things like resourcepacks
+author: PCelestia
+
+inputs:
+  mcversion:
+    description: The Minecraft version to download
+    required: false
+    default: latest
 outputs:
   jarfilename:
     description: the name of the jar file downloaded
