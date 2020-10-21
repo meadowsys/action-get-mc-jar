@@ -20,3 +20,6 @@ outputs:
 runs:
   using: node12
   main: build/index.js
+branding:
+  color: green
+  icon: play

@@ -2,7 +2,7 @@
 
 ## NOTE
 
-this was made for the purposes of pulling some files from the game to automatically modify and build a resourcepack from, **NOT** to illegally download and play Minecraft. You can't play this version of the downloaded game unless you have a Minecraft account, which then it's a lot easier to just get the official launcher and use that.
+this was made for the purposes of pulling some files from the game to modify and build a resourcepack from, **NOT** to download and illegally play Minecraft. You can't play using the downloaded file unless you have a Minecraft account (because this is the same one as from the launcher), which then it's a lot easier to just get the official launcher and use that.
 
 ## Inputs
 
@@ -12,7 +12,7 @@ this was made for the purposes of pulling some files from the game to automatica
 
 If `mcversion` is `latest` or `release`, the latest release (not snapshot) version is downloaded
 
-If `mcversion` is `latest-snapshot`, `latest-snapshot`, or `snapshot`, the latest snapshot version is downloaded
+If `mcversion` is `latest-snapshot`, `latest snapshot`, or `snapshot`, the latest snapshot version is downloaded
 
 Otherwise, `mcversion` is expected to be a version string, like `1.16.3`, `1.16.4-pre1`, `20w30a`, `a1.0.4`, `c0.0.11a` or `rd132211`. (the last 3 are very old versions, so the string may look a little odd)
 
