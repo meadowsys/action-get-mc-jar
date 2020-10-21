@@ -13,6 +13,19 @@ jobs:
       - name: checkout my code
         uses: actions/checkout@v2
 
+      - name: setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v1.2.1
+        with:
+          version: 5.9.0
+
+      - name: install dependencies
+        run: pnpm i
+
       - name: package myself
         run: npm run package
 
