@@ -169,7 +169,7 @@ module.exports = {
       "@typescript-eslint/func-call-spacing": [error, never],
       // indent: might want to read this issue https://github.com/typescript-eslint/typescript-eslint/issues/1824
       "@typescript-eslint/indent": [error, 3, {
-         SwitchCase: 0,
+         SwitchCase: 1,
          VariableDeclarator: 1,
          // not clear what this ohteriife thing does
          outerIIFEBody: 0,
@@ -430,7 +430,7 @@ module.exports = {
       }],
       "@typescript-eslint/require-array-sort-compare": warn,
       "@typescript-eslint/require-await": off,
-      "@typescript-eslint/restrict-plus-operands": [warn, {
+      "@typescript-eslint/restrict-plus-operands": [off, {
          checkCompoundAssignments: true
       }],
       "@typescript-eslint/restrict-template-expressions": off,

@@ -8,9 +8,15 @@ inputs:
     description: The Minecraft version to download
     required: false
     default: latest
+  filename:
+    description: The name of the file to save to, default "minecraft-<version>.jar" (if no extension is provided, it will be set as .jar) (and it is all lowercased)
+    required: false
+    default: defaultnamelol
 outputs:
   jarfilename:
     description: the name of the jar file downloaded
+  minecraftversion:
+    description: the name of the minecraft version downloaded (for if mcversion was latest or snapshot)
 runs:
   using: node12
   main: build/index.js
