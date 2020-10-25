@@ -26,7 +26,7 @@ Otherwise, `mcversion` is expected to be a version string, like `1.16.3`, `1.16.
 
 the name of the jar file downloaded (provided for when `mcversion` is `latest`, `snapshot` or similar)
 
-### `minecraftversion`
+### `mcversion`
 
 the version of minecraft that was downloaded (provided for when `mcversion` was set to latest or snapshot)
 
