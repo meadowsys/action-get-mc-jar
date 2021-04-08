@@ -2,7 +2,7 @@
 
 ## NOTE
 
-this was made for the purposes of pulling some files from the game to modify and build a resourcepack from, **NOT** to download and illegally play Minecraft. You can't play using the downloaded file unless you have a Minecraft account (because this is the same one as from the launcher), which then it's a lot easier to just get the official launcher and use that.
+this was made for the purposes of pulling some files from the game to modify and build a resourcepack from, **NOT** to download and illegally play Minecraft. You can't play using the downloaded file unless you have a paid Minecraft account (because this is the same file as from the launcher).
 
 ## Inputs
 
@@ -32,4 +32,4 @@ the version of minecraft that was downloaded (provided for when `mcversion` was 
 
 ## To extract the jar in the action
 
-I don't include that in this action, because essentially the downloaded jar file is just a zip file. You can you an unzipping action to unzip the downloaded jar. I have yet to test this action for this specific purpose, but I have used [the zip action](https://github.com/marketplace/actions/create-zip-file), and I recommend it!
+I don't include that in this action, because essentially the downloaded jar file is just a zip file. You can use `unzip` or `7z` to unzip the resulting file.
